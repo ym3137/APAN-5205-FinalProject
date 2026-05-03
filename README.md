@@ -32,7 +32,7 @@ Rather than building a black-box popularity predictor, our goal is interpretabil
 
 ## Notebooks
 
-### 1. `hn_data_eda_clustering.ipynb`
+### 1. EDA Clustering `hn_data_eda_clustering.ipynb`
 **Author:** Yike (Ryan) Meng
 
 The primary analysis notebook. Covers exploratory data analysis, NLP preprocessing, TF-IDF vectorization, and two-stage K-Means clustering.
@@ -48,8 +48,8 @@ The primary analysis notebook. Covers exploratory data analysis, NLP preprocessi
 
 ---
 
-### 2. `hn_supplementary_eda.ipynb`
-**Author:** Leanne Chung Supplementary Analysis
+### 2.  Supplementary Analysis `hn_supplementary_eda.ipynb`
+**Author:** Leanne Chung
 
 Extends the main EDA with additional visualizations not included in the primary notebook.
 
@@ -63,7 +63,7 @@ Extends the main EDA with additional visualizations not included in the primary 
 
 ---
 
-### 3. `predictive_model.ipynb`
+### 3. Predictive Modeling `predictive_model.ipynb`
 **Author:** Yun-Chien (Athena) Huang
 
 Trains and evaluates regression models to predict log1p(score) from post title text.
