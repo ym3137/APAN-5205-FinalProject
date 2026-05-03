@@ -7,7 +7,7 @@ Yun-Chien (Athena) Huang · Yike (Ryan) Meng · Leanne Chung · Joe Wang · Feiy
 
 ## Project Overview
 
-Hacker News (HN) engagement is highly unequal — a small fraction of posts capture most upvotes while the majority receive almost none. This project uses NLP and unsupervised clustering to identify which *topic clusters* produce disproportionately viral posts, and builds predictive regression models to quantify how well post titles predict engagement scores.
+Hacker News (HN) engagement is highly unequal where a small fraction of posts capture most upvotes while the majority receive almost none. This project uses NLP and unsupervised clustering to identify which *topic clusters* produce disproportionately viral posts, and builds predictive regression models to quantify how well post titles predict engagement scores.
 
 Rather than building a black-box popularity predictor, our goal is interpretability: cluster posts into named topics, extract the keywords that define each cluster, and explain which content areas drive virality on HN.
 
