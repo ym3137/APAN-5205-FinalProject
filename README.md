@@ -13,23 +13,6 @@ Rather than building a black-box popularity predictor, our goal is interpretabil
 
 ---
 
-## Repository Structure
-
-```
-├── data/
-│   ├── hn_stories_raw.csv          # Raw data pulled from Algolia HN API (17,274 rows)
-│   ├── hn_stories_clean.csv        # Cleaned dataset used as input to all notebooks (14,065 rows)
-│   └── hn_with_clusters.csv        # Output of EDA+Clustering notebook; input to predictive model
-│
-├── hn_data_eda_clustering.ipynb    # Main notebook: EDA + TF-IDF + K-Means clustering
-├── hn_supplementary_eda.ipynb      # Supplementary notebook: trends, author analysis, word clouds
-├── predictive_model.ipynb          # Predictive model: Decision Tree + Random Forest regression
-│
-└── README.md
-```
-
----
-
 ## Notebooks
 
 ### 1. EDA Clustering `hn_data_eda_clustering.ipynb`
